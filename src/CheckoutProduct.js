@@ -26,7 +26,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
 
                 <div className='checkoutProduct__rating'>
                     {Array(rating).fill().map((_, i) => (
-                        <p>⭐</p>
+                        <p>⭐&#xFE0F;</p>
                     ))}
                 </div>
 
