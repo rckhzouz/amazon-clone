@@ -111,6 +111,7 @@ function Payment() {
                         <h3>Payment Method</h3>
                     </div>
                     <div className='payment__details'>
+                        <h3>Card Details</h3>
                         <form onSubmit={handleSubmit}>
                             <CardElement onChange={handleChange}/>
 
